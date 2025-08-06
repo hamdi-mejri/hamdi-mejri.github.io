@@ -390,6 +390,7 @@
 
         .project-image {
             height: 220px;
+          
             background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
             display: flex;
             align-items: center;
@@ -398,6 +399,26 @@
             font-size: 4rem;
             position: relative;
             z-index: 1;
+        }
+        .project-image.p1 {
+        background-image: url(photos/2.png);
+        background-size:cover;
+        background-position:center;
+        }
+             .project-image.p2 {
+        background-image: url(photos/3.png);
+        background-size:cover;
+        background-position:center;
+        }
+             .project-image.p3 {
+        background-image: url(photos/4.png);
+        background-size:cover;
+        background-position:center;
+        }
+             .project-image.p4 {
+        background-image: url(photos/5.png);
+        background-size:cover;
+        background-position:center;
         }
 
         .project-content {
@@ -675,14 +696,15 @@
                 <h2>Featured Projects</h2>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <div class="project-image">🚀</div>
+                        <div class="project-image p1"></div>
                         <div class="project-content">
-                            <h3>Application Web Moderne</h3>
-                            <p>Une application web responsive développée avec React et Node.js, intégrant une API REST et une base de données MongoDB.</p>
+                            <h3>Jeu d'échecs avec Pygame</h3>
+                            <p>une application de jeu d'échecs développée en Python utilisant la bibliothèque Pygame pour l'interface graphique. L'application permet de jouer aux échecs avec une interface simple et intuitive.</p>
                             <div class="project-tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">MongoDB</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Pygame</span>
+                               
+                         <!--    <span class="tag"></span> -->
                             </div>
                         </div>
                     </div>
@@ -735,7 +757,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Hamdi MEJRI. Tous droits réservés. | Built with ❤️ and ☕</p>
+            <p>&copy; 2025 Hamdi MEJRI. Tous droits réservés</p>
         </div>
     </footer>
 
